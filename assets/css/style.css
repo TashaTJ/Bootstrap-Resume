@@ -11,6 +11,10 @@
     background-color: white;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
 .ui-meun-color-home {
     background-color: #B09CDD;
 }
@@ -221,4 +225,14 @@ footer {
     padding: 20px;
 }
 
+/*--------------------------------------------Three Reasons*/
+
+.three-reasons-icon {
+    font-size: 26px;
+    color:#B09CDD ;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
 
