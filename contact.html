@@ -7,11 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/25fb3548cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 
     <!-- Hover effect -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
@@ -57,7 +56,26 @@
         </div>
 
     </header>
-    <section>
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading upperclass text-center">Got a Project in Mind?</h3>
+                <h5 class="upperclass text-center">Let's work Together!</h5>
+                <div class="center-form">
+                    <form action="">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                        <input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email" required>
+                        <textarea rows="5" name="projectsummary" id="projectsummary" placeholder="Project Description" class="form-control"></textarea>
+                        <input type="submit" value="">
+                        <div class="row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
     </section>
     <footer class="container-fluid">
