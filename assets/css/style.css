@@ -236,3 +236,61 @@ footer {
     margin-bottom: 15px;
 }
 
+/*--------------------------------------------Personal Info*/
+
+.personal-info-item{
+    margin-bottom: 20px;
+    display: block;
+    clear: both; /* no other item can appear either side of it incase of using floats */
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block; /* allows us to put 2 divs side by side */
+}
+
+.personal-info-item .key p, 
+.personal-info-item .value p {
+    margin: 0;
+
+}
+
+.personal-info-item .key {
+    width: 30%; /* becuase width if value = 60% overall = 90% */
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top; /* hugs top of div */
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative; /* relatvie to predescessor */
+    width: 60%;
+
+
+}
+
+/*--------------------------------------------My skills */
+
+.progress {
+    position: relative;
+    height: 25px; /* auto changes the height of the bar */
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute; /* absolute child of relative parent */
+    left: 0px;
+    /* moves it to far L of prgress bar */
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
